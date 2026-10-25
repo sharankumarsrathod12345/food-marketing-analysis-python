@@ -15,4 +15,10 @@ The source u_food_marketing.csv was subsequently supplied. Removing 184 exact du
 
 ## GitHub publication review — 2026-10-25
 
-Published input, code, notebook, and output blobs matched the reviewed package. Removed the redundant outer project directory so the root README and run instructions agree. Added a business summary, clarified third-party data licensing, and changed the standalone script to resolve paths relative to its file. Standalone scripts were rerun; native notebook-kernel validation is still pending.
+Published input, code, notebook, and output blobs matched the reviewed package. Removed the redundant outer project directory so the root README and run instructions agree. Added a business summary, clarified third-party data licensing, and changed the standalone script to resolve paths relative to its file. Standalone scripts were rerun; native notebook-kernel validation was pending at that stage and is now completed below.
+
+## Native Jupyter validation completed — 2026-10-25
+
+[Successful GitHub Actions run](https://github.com/sharankumarsrathod12345/food-marketing-analysis-python/actions/runs/40205390284) at commit `f26144546526047439a30b7e9918c0aa0751a570`.
+
+Executed 9 code cells in a fresh Python 3.12.15 kernel after clearing saved outputs and execution counts. All 9 aggregate CSV files reconciled to the repository baselines using numerical tolerances (rtol=1e-9, atol=1e-10). Source hashes and notebook structure passed. The earlier local socket restriction is superseded by this successful hosted run. See `native-validation.json` for the package versions and file list.

@@ -1,5 +1,7 @@
 # Customer Segmentation & Campaign Response
 
+[![Validate notebooks](https://github.com/sharankumarsrathod12345/food-marketing-analysis-python/actions/workflows/validate-notebooks.yml/badge.svg)](https://github.com/sharankumarsrathod12345/food-marketing-analysis-python/actions/workflows/validate-notebooks.yml)
+
 **Python · pandas · Data quality · Exploratory analysis · Business communication**
 
 A Python case study in turning customer data into a testable marketing recommendation. **Course-based portfolio work by Sharan Kumar Rathod; not a paid client engagement.**
@@ -75,4 +77,10 @@ The case brief describes simulated data. There is no customer ID: identical-row 
 
 The author identifies this as Alex the Analyst coursework. Original lesson and dataset URLs remain to be confirmed; dataset authorship is not claimed. See [data provenance](data/README.md). The repository's code license does not establish redistribution rights for third-party datasets or case materials.
 
-The uploaded project files matched the previously reviewed package byte-for-byte. Both standalone scripts were rerun against those inputs during this review. Notebook code had previously executed sequentially with saved outputs and format validation; native Jupyter-kernel execution remains unverified because the earlier environment blocked kernel sockets. See [review notes](docs/review-notes.md).
+**Native notebook validation passed on 25 October 2026.** All 9 code cells executed from a fresh Jupyter kernel on Python 3.12.15, and all 9 regenerated aggregate CSVs matched the published results within numerical tolerance. Input SHA-256 checks and notebook-format validation also passed.
+
+[View the successful validation run](https://github.com/sharankumarsrathod12345/food-marketing-analysis-python/actions/runs/40205390284) · [Validation evidence](docs/native-validation.json)
+
+GitHub Actions reruns this check when notebooks, data, baseline outputs, or validation code change. The run's `notebook-validation` artifact contains freshly executed notebooks, HTML previews, charts, and a validation report (retained for 14 days). Run locally with `python scripts/validate_notebooks.py` after installing the project requirements and `nbclient nbformat ipykernel`.
+
+This verifies execution and numerical reproducibility; it does not establish dataset provenance, causal effects, or business impact.

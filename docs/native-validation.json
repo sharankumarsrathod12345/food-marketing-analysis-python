@@ -1,0 +1,36 @@
+{
+  "validation": "fresh native Jupyter kernel; aggregate CSV reconciliation",
+  "python": "3.12.15",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "scipy": "1.18.1",
+    "nbclient": "0.11.0",
+    "nbformat": "5.11.1",
+    "nbconvert": "7.17.2",
+    "ipykernel": "7.4.0"
+  },
+  "results": [
+    {
+      "notebook": "food_marketing_analysis.ipynb",
+      "executed_code_cells": 9,
+      "reconciled_csvs": [
+        "age_segments.csv",
+        "behavior_segments.csv",
+        "channel_purchase_counts.csv",
+        "children_segments.csv",
+        "duplicate_sensitivity.csv",
+        "education_segments.csv",
+        "marital_segments.csv",
+        "quality_checks.csv",
+        "summary.csv"
+      ],
+      "status": "passed"
+    }
+  ],
+  "validated_commit": "f26144546526047439a30b7e9918c0aa0751a570",
+  "run_url": "https://github.com/sharankumarsrathod12345/food-marketing-analysis-python/actions/runs/40205390284",
+  "validated_date": "2026-10-25"
+}

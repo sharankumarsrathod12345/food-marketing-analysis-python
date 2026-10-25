@@ -12,5 +12,5 @@
     "cleaned_ufood_marketing.csv": "c49624a1611b27172becb351be6692863c07f897181f26d4c0f8880ce5670a9c",
     "u_food_marketing.csv": "2059aefa40a61c85063172055502d4131086bc87777e3e1a41dbc701cd00b995"
   },
-  "validation": "sequential Python execution; nbformat passed; native kernel blocked by socket permissions"
+  "validation": "Original local sequential execution passed; native Jupyter validation subsequently passed on GitHub Actions. See native-validation.json for the tested commit and environment."
 }
