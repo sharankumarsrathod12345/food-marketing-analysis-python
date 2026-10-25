@@ -1,0 +1,1 @@
+Inputs: u_food_marketing.csv (2,205 rows) and cleaned_ufood_marketing.csv (2,021 rows). Both are included in this private handoff. The notebook recreates exact-duplicate removal and verifies shared fields against the cleaned reference. CSV inputs are ignored by Git by default pending provenance/reuse confirmation.

@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "scipy": "1.17.0",
+    "nbformat": "5.11.1"
+  },
+  "inputs": {
+    "cleaned_ufood_marketing.csv": "c49624a1611b27172becb351be6692863c07f897181f26d4c0f8880ce5670a9c",
+    "u_food_marketing.csv": "2059aefa40a61c85063172055502d4131086bc87777e3e1a41dbc701cd00b995"
+  },
+  "validation": "sequential Python execution; nbformat passed; native kernel blocked by socket permissions"
+}
