@@ -12,3 +12,7 @@ Original notebook issues corrected:
 Input SHA256: c49624a1611b27172becb351be6692863c07f897181f26d4c0f8880ce5670a9c
 
 The source u_food_marketing.csv was subsequently supplied. Removing 184 exact duplicates reproduces every shared column of the cleaned input. Both inputs are retained for an explicit reconciliation check. The original case describes mock data; the dictionary confirms last-campaign response and two-year spending definitions. Exact calendar coverage, currency, and reuse terms remain unspecified.
+
+## GitHub publication review — 2026-10-25
+
+Published input, code, notebook, and output blobs matched the reviewed package. Removed the redundant outer project directory so the root README and run instructions agree. Added a business summary, clarified third-party data licensing, and changed the standalone script to resolve paths relative to its file. Standalone scripts were rerun; native notebook-kernel validation is still pending.
